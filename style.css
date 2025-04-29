@@ -1,0 +1,56 @@
+.form-container {
+    background: #fff;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-container button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;        /* gunakan lebar 100% dari card */
+    max-height: 250px;  /* batasi tinggi maksimum */
+    object-fit: cover;  /* crop otomatis agar sesuai rasio */
+    border-radius: 4px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Container dan card tetap sama */
+.container { max-width: 800px; margin: auto; padding: 20px; }
+.card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.card h1 { margin-top: 0; color: #007BFF; }
+.card .content { margin-top: 20px; line-height: 1.6; }
+.card .content img {
+    max-width: 100%;
+    height: auto;
+}
+
